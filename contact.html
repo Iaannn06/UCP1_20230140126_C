@@ -123,7 +123,6 @@
   </footer>
 
   <script>
-    // Fungsi utama yang pasti bekerja
     function handleFormSubmit(event) {
       event.preventDefault();
       
@@ -141,7 +140,6 @@
       event.target.reset();
     }
 
-    // Dua cara untuk memastikan form terhubung
     document.addEventListener('DOMContentLoaded', () => {
       const form = document.getElementById('registrationForm');
       if (form) {
@@ -149,7 +147,6 @@
       }
     });
 
-    // Backup method setelah 1 detik
     setTimeout(() => {
       const form = document.getElementById('registrationForm');
       if (form && !form.onSubmit) {
